@@ -4,142 +4,103 @@ body {
     padding: 0;
 }
 
-.flex__ex {
-    height: 50vh; 
-    /*background-color: yellow;*/
+.layout-one{
+    min-height: 50vh;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    /*justify-content: center;
-    align-items: center;*/
-   margin-bottom: 20px;
-   
+    align-items: center;
+    background-color: darkorange;
+    display: inline-block;
    
 }
 
 
 .container1 {
-    background-color: orange;
-    border: 5px dotted black;
-    position: relative;
-    /*width: 70%;*/
-    /*min-height: 50%;*/
-    padding: 25px 0;
-    display: flex;
-    width: 1000px;
+    background-color: palevioletred;
+    border-radius: 5px dotted black;
+    /*position: relative;*/
+    width: 600px;
     height: 300px;
-    top: 90px;
-    left: 20px;
-    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
     justify-content: flex-start;
-    align-items: flex-end;
-    
+    align-items: flex-end; 
    
 }
 .container2 {
-    background-color: orange;
-    border: 5px dotted black;
-    position: relative;
-    /*width: 70%;*/
-    /*min-height: 50%;*/
-    padding: 25px 0;
-    display: flex;
-    width: 1000px;
+    background-color: palevioletred;
+    border-radius: 5px dotted black;
+    /*position: relative;*/
+    width: 600px;
     height: 300px;
-    top: 90px;
-    left: 20px;
-    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
     justify-content: center;
     align-items: stretch;
-    
-    
+
 }
 
 .container3 {
-    background-color: orange;
-    border: 5px dotted black;
-    position: relative;
-    /*width: 70%;*/
-    /*min-height: 50%;*/
-    padding: 25px 0;
-    display: flex;
-    width: 1000px;
+    background-color: palevioletred;
+    border-radius: 5px dotted black;
+    /*position: relative;*/
+    width: 600px;
     height: 300px;
-    top: 90px;
-    left: 20px;
-    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
     justify-content: flex-end;
-align-items: center;
-
+    align-items: center;
     
 }
 .container4 {
-    background-color: orange;
-    border: 5px dotted black;
-    position: relative;
-    /*width: 70%;*/
-    /*min-height: 50%;*/
-    padding: 25px 0;
-    display: flex;
-    width: 1000px;
+    background-color: palevioletred;
+    border-radius: 5px dotted black;
+    /*position: relative;*/
+    width: 600px;
     height: 300px;
-    top: 90px;
-    left: 20px;
-    border-radius: 8px;
-  justify-content: space-between;
- 
-  
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: baseline;
     
 }
 .container5 {
-    background-color: orange;
-    border: 5px dotted black;
-    position: relative;
-    /*width: 70%;*/
-    /*min-height: 50%;*/
-    padding: 25px 0;
-    display: flex;
-    width: 1000px;
+    background-color: palevioletred;
+    border-radius: 5px dotted black;
+    /*position: relative;*/
+    width: 600px;
     height: 300px;
-    top: 90px;
-    left: 20px;
-    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
     justify-content: space-evenly;
-    
-    
 }
 
 .container6 {
-    background-color: orange;
-    border: 5px dotted black;
-    position: relative;
-    /*width: 70%;*/
-    /*min-height: 50%;*/
-    padding: 25px 0;
-    display: flex;
-    width: 1000px;
+    background-color: palevioletred;
+    border-radius: 5px dotted black;
+    /*position: relative;*/
+    width: 600px;
     height: 300px;
-    top: 90px;
-    left: 20px;
-    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
     justify-content: space-evenly;
-   
     
 }
 .card {
     background-color: rebeccapurple;
     border: 5px solid black;
     border-radius: 5px;
-   /* min-width: 78px;
-    min-height: 78px;*/
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 180px;
-   /* width: 78px;
-    height: 78px;
-    top: 491px;
-    left: 644px;*/
+    min-width: 78px;
+    min-height: 78px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     
 }
 
@@ -147,79 +108,39 @@ align-items: center;
     background-color: rebeccapurple;
     border: 5px solid black;
     border-radius: 5px;
-    /*min-width: 78px;
-    min-height: 78px;*/
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 180px;
-    width: 78px;
-    height: 78px;
-    /*top: 491px;
-    left: 644px;*/
+    min-width: 78px;
+    min-height: ;height: 78px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     
 }
 .card3 {
     background-color: rebeccapurple;
     border: 5px solid black;
     border-radius: 5px;
-   /* min-width: 78px;
-    min-height: 78px;*/
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 180px;
-    width: 78px;
-    height: 78px;
-    /*top: 491px;
-    left: 644px;*/
+    min-width: 78px;
+    min-height: 78px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     
 }
 .card4 {
     background-color: rebeccapurple;
     border: 5px solid black;
     border-radius: 5px;
-   /* min-width: 78px;
-    min-height: 78px;*/
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 180px;
-    width: 78px;
-    height: 78px;
-    /*top: 491px;
-    left: 644px;*/
+    min-width: 78px;
+    min-height: 78px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     
 }
 .card5 {
     background-color: rebeccapurple;
     border: 5px solid black;
     border-radius: 5px;
-    /*min-width: 78px;
+    min-width: 78px;
     min-height: 78px;*/
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 180px;
-    /*width: 78px;
-    height: 78px;*/
-    /*top: 491px;
-    left: 644px;*/
+    margin-left: 20px;
+    margin-bottom: 20px;
     
 }
-
-
-.large {
-   /* flex-wrap: wrap;
-    /*
-    flex-wrap: nowrap;
-    flex-wrap: wrap-reverse;
-    */
-   /* min-height: 60%; */
-   
-}
-
